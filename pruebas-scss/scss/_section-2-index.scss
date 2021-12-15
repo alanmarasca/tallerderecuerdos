@@ -1,0 +1,51 @@
+.calendario{
+    width: 30em;
+    padding: 2em;
+    margin: 1em 0;
+    background-color:#54615B ;
+    border-radius: 3em;
+}
+
+.galeria-uno .calendario .imagen-calendario-index img{
+    transition: all 1.5s
+}
+
+.galeria-uno .calendario .imagen-calendario-index img:hover{
+    transform:scale(1.3)
+}
+
+
+/*section fechas especiales*/
+
+
+.fechas-especiales{
+    width: 30em;
+    padding: 2em;
+    margin: 1em 0;
+    background-color: #54615B ;
+    border-radius: 3em;    
+}
+.galeria-uno .fechas-especiales .imagen-fechas-especiales-index img{
+    transition: all 1.5s 
+}
+
+.galeria-uno .fechas-especiales .imagen-fechas-especiales-index img:hover{
+    transform:scale(1.3) 
+}
+
+/*section imanes*/
+
+.imanes{
+    width: 30em;
+    padding: 2em;
+    margin: 1em 0;
+    background-color: #54615B;;
+    border-radius: 3em;
+}
+.galeria-uno .imanes .imagen-imanes-index img{
+    transition:all 1.5s
+}
+
+.galeria-uno .imanes .imagen-imanes-index img:hover{
+    transform:scale(1.3)
+}

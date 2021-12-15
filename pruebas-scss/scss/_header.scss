@@ -1,0 +1,85 @@
+
+.header {
+    background-color: #ffd9b9;
+    padding: 1em 0 0 0 ;
+    position: fixed;
+    width: 100%;
+
+    .lista-uno {
+         list-style-type: none;
+         display: flex;
+         margin-left: 10em;
+
+         .menu-paginas{
+            display: flex;
+            text-align: center;            
+         
+
+            .menu-centro{
+                 margin-left: 5em ;
+                 letter-spacing: 5px ;
+                 font-family: 'Playfair Display', serif; 
+                 font-size: 1em ;
+
+                 a { 
+                     text-decoration: none;
+                    color:black;
+                    font-size: 1.3em                     
+                 }
+            }
+
+          } 
+
+         
+
+        .registro-compras{
+            margin-left: 10em;
+            display: flex;
+            flex-direction: column;
+        
+
+            .menu-derecha{
+                 margin-left: 16em; 
+                 display: flex;    
+                 flex-flow: column ;  
+                 padding: 0.1em; 
+                 letter-spacing: 5px ;
+                 font-family: 'Playfair Display', serif; 
+                 font-size: 1em ; 
+
+                 a { 
+                    text-decoration: none;
+                   color:black;
+                   font-size: 1.3em                     
+                }
+            }
+        }
+
+    }
+     
+    
+}   
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+ .fuentes-productos li a{    
+        text-decoration: none;
+        color:black;
+        font-size: 1.3em
+        
+        }
+
+       
+

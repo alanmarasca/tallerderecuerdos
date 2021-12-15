@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo&family=Playfair+Display:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;1,900&family=Playfair+Display:ital@1&display=swap");
+.header {
+  background-color: #ffd9b9;
+  padding: 1em 0 0 0;
+  position: fixed;
+  width: 100%;
+}
+.header .lista-uno {
+  list-style-type: none;
+  display: flex;
+  margin-left: 10em;
+}
+.header .lista-uno .menu-paginas {
+  display: flex;
+  text-align: center;
+}
+.header .lista-uno .menu-paginas .menu-centro {
+  margin-left: 5em;
+  letter-spacing: 5px;
+  font-family: "Playfair Display", serif;
+  font-size: 1em;
+}
+.header .lista-uno .menu-paginas .menu-centro a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+}
+.header .lista-uno .registro-compras {
+  margin-left: 10em;
+  display: flex;
+  flex-direction: column;
+}
+.header .lista-uno .registro-compras .menu-derecha {
+  margin-left: 16em;
+  display: flex;
+  flex-flow: column;
+  padding: 0.1em;
+  letter-spacing: 5px;
+  font-family: "Playfair Display", serif;
+  font-size: 1em;
+}
+.header .lista-uno .registro-compras .menu-derecha a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+}
+
+.fuentes-productos li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+}
+
+.prueba-uno {
+  background: url(../imagenes/foto-fondo-index.png), white;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 1.8em;
+}
+.prueba-uno .titulo-secundario-index {
+  font-family: "Playfair Display", serif;
+  font-size: 6em;
+  text-align: center;
+  padding-top: 0.8em;
+  color: #DCB239;
+  margin-left: 6em;
+  padding-top: 0.8em;
+}
+.prueba-uno .titulo-principal-index {
+  margin-top: 2em;
+  font-size: 4em;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 2em;
+  color: #DCB239;
+  text-align: right;
+  margin-left: 12em;
+}
+
+.calendario {
+  width: 30em;
+  padding: 2em;
+  margin: 1em 0;
+  background-color: #54615B;
+  border-radius: 3em;
+}
+
+.galeria-uno .calendario .imagen-calendario-index img {
+  transition: all 1.5s;
+}
+
+.galeria-uno .calendario .imagen-calendario-index img:hover {
+  transform: scale(1.3);
+}
+
+/*section fechas especiales*/
+.fechas-especiales {
+  width: 30em;
+  padding: 2em;
+  margin: 1em 0;
+  background-color: #54615B;
+  border-radius: 3em;
+}
+
+.galeria-uno .fechas-especiales .imagen-fechas-especiales-index img {
+  transition: all 1.5s;
+}
+
+.galeria-uno .fechas-especiales .imagen-fechas-especiales-index img:hover {
+  transform: scale(1.3);
+}
+
+/*section imanes*/
+.imanes {
+  width: 30em;
+  padding: 2em;
+  margin: 1em 0;
+  background-color: #54615B;
+  border-radius: 3em;
+}
+
+.galeria-uno .imanes .imagen-imanes-index img {
+  transition: all 1.5s;
+}
+
+.galeria-uno .imanes .imagen-imanes-index img:hover {
+  transform: scale(1.3);
+}
+
+.stripts {
+  width: 30em;
+  padding: 2em;
+  margin: 1em 0;
+  background-color: #54615B;
+  border-radius: 3em;
+}
+
+.galeria-dos .stripts .imagen-strips-index img {
+  transition: all 1.5s;
+}
+
+.galeria-dos .stripts .imagen-strips-index img:hover {
+  transform: scale(1.3);
+}
+
+/*section cuadros*/
+.cuadros {
+  width: 30em;
+  padding: 2em;
+  margin: 1em 0;
+  background-color: #54615B;
+  border-radius: 3em;
+}
+
+.galeria-dos .cuadros .imagen-cuadro-index img {
+  transition: all 1.5s;
+}
+
+.galeria-dos .cuadros .imagen-cuadro-index img:hover {
+  transform: scale(1.3);
+}
+
+/*section fotos*/
+.fotos {
+  width: 30em;
+  padding: 2em;
+  margin: 1em 0;
+  background-color: #54615B;
+  border-radius: 3em;
+}
+
+.galeria-dos .fotos .imagen-fotos-index img {
+  transition: all 1.5s;
+}
+
+.galeria-dos .fotos .imagen-fotos-index img:hover {
+  transform: scale(1.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer .pie-de-pagina {
+  background-color: #ffd9b9;
+  padding: 1em 0 0 0;
+  width: 100%;
+}
+footer .pie-de-pagina p {
+  color: black;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  padding-top: 1.5em;
+  font-size: 1em;
+}
+
+/*# sourceMappingURL=style.css.map */
