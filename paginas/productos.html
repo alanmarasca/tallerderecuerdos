@@ -37,40 +37,55 @@
   
     
     
-    <!-- Link CSS-->
-    <link rel="stylesheet" href="../estilos/estilos.css">
+     <!--link css-->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- link libreria redes sociales-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
     <!--link bootstrap css-->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
    
     <title>Taller de recuerdos - Productos</title>
 </head>
 <body>
 
     
-    <!--Inicio de Cabecera-->
-    <header class="header">
-        <nav class=>
-           
-            <div class="header-one"> 
-              <ul class="lista-uno">
-                <div class="menu-paginas">  
-                <li class="menu-centro"><a href=../index.html >Inicio</a></li>
-                <li class="menu-centro"><a href=productos.html >Productos</a> </li>
-                <li class="menu-centro"><a href=contacto.html >Contacto</a></li>
-                <li class="menu-centro"><a href=quienes-somos.html>Quienes Somos</a></li>
+     <!--Inicio de Header-->
+
+        <!-- USO DE BOOTSTRAP-->
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light color-header">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"> <img src="/imagenes/logo.png" alt="icnono del sitio taller de recuerdos" width="100" height=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html"> <h3>Inicio</h3></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="productos.html"><h3>Productos</h3></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html"><h3>Contacto</h3></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="quienes-somos.html"><h3>Quienes Somos</h3></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="iniciar-sesion.html"><h3>Iniciar Sesion</h3></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="registrate.html"><h3>Registrate</h3></a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                
-                <div class="registro-compras">
-                    <li class="menu-derecha"><!--aca va iciono de carro compras--></li>
-                    <li class="menu-derecha"><a href=iniciar-sesion.html >Iniciar Sesion </a></li>
-                    <li class="menu-derecha"><a href=registrate.html >Registrate</a></li>
-                 </div>
-              </ul>
-            </div>  
-        </nav>            
-    </header>
-    <!--Fin de Cabecera-->
+              </nav>
+           </header>
+            <!--Fin de Header-->
     
     
 
@@ -80,225 +95,166 @@
             <h1>Nuestros Productos</h1>
         </div>
 
+        <!--calendario-->
          <div class="body-productos">
-        <div class="fondo-productos">
-            <section>
-                <div class="calendario-productos">                 
-                        <h2 class="fuentes-productos">Calendario </h2>
-                        <img src="../imagenes/calendario.png" alt="calendario" >
-                 </div>  
-                 <div class="tabla-productos">     
-                 <table border="1">
-                      <tr>
-                             <td>Producto</td>
-                             <td>Descripcion</td>
-                             <td>Precio</td>                 
-                      </tr>
-                       <tr>
-                             <td> Calendario Big</td>
-                             <td> Calendario personalizado con 13 fotos (una portada y 12 meses)
-                             <br>
-                                  Anillado wire (blanco, plateado o negro según disponibilidad) y con carpeta contenedora para colgarlo en la pared
-                            <br>
-                                  Empeza con el mes que quieras
-                            <br>
-                                  Entrega: 10 días hábiles para CABA y 14 para el resto del país
-                            <br>
-                                  Tamaño cerrado: 21×29,7 cm
-                            <br>
-                                  Tamaño abierto: 42×29.7cm</td>
-                             <td> $ 1.450,00 ARS
-                             <br>
-                                   por calendario (Mínimo 13 Copias)                   
-                            </td>
-                        </tr>
-                     </table>
-                
-                    </div>
 
-                 <div class="fechas-especiales-productos"> 
-                    <h2 class="fuentes-productos">Fechas Especiales</h2> 
-                     <img src="../imagenes/fotolibro.jpg" alt="fotolibro"   >
-                    </div>
-                <div class="tabla-fechas-especiales"></div>
-                <table border="1">
-                          <tr>
-                             <td>Producto</td>
-                             <td>Descripcion</td>
-                             <td>Precio</td>                 
-                          </tr>
-                          <tr>
-                             <td>Fotolibro para esa persona especial
+            <h2 style="text-align:center">Calendario</h2>
 
-                             </td>
+            <div class="calendario-productos">
+              <img src="/imagenes/foto-calendario.jpg" alt="calendario personalizado con tus fotos" style="width:100%">
+              <h1>Calendario Big</h1>
+              <p class="price">$190.99</p>
+              <p>Calendario personalizado con 13 fotos (una portada y 12 meses).Anillado wire (blanco, plateado o negro según disponibilidad) y con carpeta contenedora para colgarlo en la pared. Empeza con el mes que quieras. Entrega: 10 días hábiles para CABA y 14 para el resto del país.Tamaño cerrado: 21×29,7 cm Tamaño abierto: 42×29.7cm por calendario (Mínimo 13 Copias)</p>
+              <p><button>Comprar</button></p>
+            </div>
 
-                             <td>Fotolibro de tapa dura con 40 fotos en papel ilustración 170 gs.
-                             <br>
-                                 Cargá tus fotos desde tu compu, celular, Instagram o Facebook.
-                              <br>
-                                  Entrega: 10 días hábiles para CABA y hasta 14 para el resto del país.
-                              <br>
-                                 Tamaño del fotolibro: 21x21 cm
-                             </td>
 
-                              <td> $ 2.850,00 ARS
-                              <br>
-                                  por fotolibro                   
-                              </td>
-                          </tr>
-                 </table>
+            <!--fechas especiales-->
 
-                  
-                 <div class="imanes-productos">
-                 <h2 class="fuentes-productos">Imanes </h2>
-                 <img src="../imagenes/Imanes.jpg" alt="Imanes" >
+            
+    
+             <div class="body-productos">
+    
+                <h2 style="text-align:center">Fechas-especiales</h2>
+    
+                <div class="fechas-especiales">
+                  <img src="/imagenes/foto-libro.jpg" alt="fotolibro personalizado con tus fotos" style="width:100%">
+                  <h1>Fechas especiales</h1>
+                  <p class="price">$190.99</p>
+                  <p>Fotolibro para esa persona especial.Fotolibro de tapa dura con 40 fotos en papel ilustración 170 gs. Cargá tus fotos desde tu compu, celular, Instagram o Facebook.
+                    Entrega: 10 días hábiles para CABA y hasta 14 para el resto del país.Tamaño del fotolibro: 21x21 cm por fotolibroFotolibro para esa persona especial
+                   fotolibro de tapa dura con 40 fotos en papel ilustración 170 gs.Cargá tus fotos desde tu compu, celular, Instagram o Facebook.Entrega: 10 días hábiles para CABA y hasta 14 para el resto del país.
+                    Tamaño del fotolibro: 21x21 cm        
+                     
+                        </p>
+                  <p><button>Comprar</button></p>
                 </div>
 
 
-                <table border="1">
-                     <tr>
-                         <td>Producto</td>
-                        <td>Descripcion</td>
-                        <td>Precio</td>                 
-                     </tr>
+                <!--imanes-->
 
-                     <tr>
-                         <td>SquareMagnets</td>
-                         <td>¡Ahora podés hacer imanes con tus fotos preferidas! Decorá tu heladera con las fotos más divertidas.
-                          <br>
-                             Imanes de formato cuadrado
-                         <br>                
-                             Cargá tus fotos desde tu compu, celular, Instagram o Facebook
-                         <br>
-                             Entrega: 4 días hábiles para CABA y 10 para el resto del país
-                          <br>
-                             Tamaño del imán: 6x6
-                          </td>
+                   
 
-                         <td> $ 72,00 ARS
-                             <br>
-                            por imán (Mínimo 12 Copias)                  
-                         </td>
-                     </tr>
-                </table>
+                    <div class="body-productos">
+
+                    <h2 style="text-align:center">imanes</h2>
+
+                    <div class="imanes">
+                    <img src="/imagenes/imanes.jpg" alt="fotolibro personalizado con tus fotos" style="width:100%">
+                    <h1>Imanes</h1>
+                     <p class="price">$190.99</p>
+                      <p>SquareMagnets
+                    ¡Ahora podés hacer imanes con tus fotos preferidas! Decorá tu heladera con las fotos más divertidas.Imanes de formato cuadrado
+                    Cargá tus fotos desde tu compu, celular, Instagram o Facebook Entrega: 4 días hábiles para CABA y 10 para el resto del país
+                     Tamaño del imán: 6x6
+                     </p>
+                    <p><button>Comprar</button></p>
+                    </div>
+
+                                   
            
               
-           </section>
            
+        
+    
 
-        <section>
-            <div class="strips-productos">
-            <h2 class="fuentes-productos">Strips</h2>
-            <img src="../imagenes/Strips.jpg" alt="Strips" >
-            </div>
-            <table border="1">
-                <tr>
-                    <td>Producto</td>
-                    <td>Descripcion</td>
-                    <td>Precio</td>                 
-                </tr>
-                <tr>
-                    <td>Pack de 6 Strips imantadas</td>
-                    <td>¡Dale a tus fotos preferidas un toque único, imprimilas en tiras imantadas de 4 fotos! 
-                       <br>
-                        6 tiras de 4 fotos cada una
-                        <br>
-                        Recibilas impresas en la puerta de tu casa
-                        <br>
-                        Entrega: 4 días hábiles para CABA y 10 para el resto del país
-                        <br>
-                        Tamaño de la foto: 3,7 x 3,7cm
-                       <br>
-                        Tamaño strip: 4,2 x 17,7cm
-                    </td>
-                       <td> $ 750,00 ARS
-                           <br>
-                        por 6 strips                  
-                       </td>
-                </tr>
-            </table>
+ <!--fechas especiales-->
 
+ 
+
+ <div class="body-productos">
+
+    <h2 style="text-align:center">Cuadros</h2>
+
+    <div class="cuadros">
+      <img src="/imagenes/foto-cuadro.jpg" alt="cuadros personalizados para foto polaroid" style="width:100%">
+      <h1>cuadros</h1>
+      <p class="price">$190.99</p>
+      <p><td>Cuadro Square</td>
+        <td>Tranformá tu foto preferida en un cuadro de primera calidad.
            
-            <div class="cuadros-productos">
-              <h2 class="fuentes-productos">Cuadros</h2>
-             <img src="../imagenes/cuadro.jpg" alt="cuadro" >
-            </div>
-
-             <table border="1">
-                <tr>
-                    <td>Producto</td>
-                    <td>Descripcion</td>
-                    <td>Precio</td>                 
-                </tr>
-                <tr>
-                    <td>Cuadro Square</td>
-                    <td>Tranformá tu foto preferida en un cuadro de primera calidad.
-                       <br> 
-                        Marco de madera sólida y vidrio Float
-                        <br>
-                        Recomendamos imágenes de 1 mb a 10 mb
-                        <br>
-                        Entrega: 16 días hábiles para CABA y hasta 23 para el resto del país
-                    </td>
-                       <td> $ 1950,00 ARS                                         
-                       </td>
-                </tr>
-            </table>
-
+            Marco de madera sólida y vidrio Float
+            ndamos imágenes de 1 mb a 10 mb
             
-            <div class="fotos-productos">
-             <h2 class="fuentes-productos">Fotos </h2>
+            Entrega: 16 días hábiles para CABA y hasta 23 para el resto del país
+        
+          $ 1950,00 ARS                                         
+              
+         
+            </p>
+      <p><button>Comprar</button></p>
+    </div>
 
-            <img src="../imagenes/foto.jpg" alt="foto" >
-            </div>
-            <table border="1">
-                <tr>
-                    <td>Producto</td>
-                    <td>Descripcion</td>
-                    <td>Precio</td>                 
-                </tr>
-                <tr>
-                    <td>PolaPrint</td>
-                    <td>¡Dale a tus fotos preferidas un toque vintage! Imprimilas en estilo Polaroid® (papel brillante)
-                        <br>
+
+
+    
+
+ <div class="body-productos">
+
+    <h2 style="text-align:center">Fotos</h2>
+
+    <div class="fotos">
+      <img src="/imagenes/fondo-camara-2.jpg"cuadros personalizados para foto polaroid" style="width:100%">
+      <h1>Fotos</h1>
+      <p class="price">$190.99</p>
+      <p><td>Cuadro Square</td>
+        <td>PolaPrint</td>
+                   ¡Dale a tus fotos preferidas un toque vintage! Imprimilas en estilo Polaroid® (papel brillante)
+                      
                         Cargá tus fotos desde tu compu, celular, Instagram o Facebook
-                        <br>
+                      
                         Recibilas impresas en la puerta de tu casa
-                        <br>
+                       
                         Entrega: 4 días hábiles para CABA y 10 para el resto del país
-                        <br>
+                        
                         Tamaño de la foto: 8,2x10 cm
-                    </td>
-                       <td> Individual $33,50 ARS                                      
-                       </td>
-                </tr>
-            </table>
-               
-        </section>   
-        </div>   
+                    
+                       Individual $33,50 ARS                                      
+                                                         
+              
+         
+            </p>
+      <p><button>Comprar</button></p>
+    </div>
+
+                  
+              
+
+           
+            
+            
      </main>
 
      
      
     
-     <!--Inicio  "footer"-->
+    <!--Inicio  "footer"-->
+
+
     <footer>
+
+
         <div class="pie-de-pagina">
-        <!--Aqui va icono de mi sitio-->
 
-           <p>Poder disfrutar de los recuerdos de la vida es
-             vivir dos veces (Marco Valerio Marcial)</p>
+            
+         <!--Aqui va icono de mi sitio-->
 
-        <!--Icono red social-->  
-            <p>Facebook</p>
-        
-        <!--Icono de red social-->
-            <p>Instagram</p>
+             <p>Poder disfrutar de los recuerdos de la vida es
+              vivir dos veces (Marco Valerio Marcial)</p>
 
-        <!--Icono de red social-->
-            <p>Mail</p>
-       </div> 
-   </footer>
+             <!--Icono red social-->  
+             <div class="facebook"><a href="https://es-la.facebook.com/" class="fa fa-facebook"></a>
+            </div>
+             
+             <!--Icono de red social-->
+             <div class="instagram">
+             <a href="#" class="fa fa-instagram"></a>
+            </div>
+
+         
+         </div>
+    </footer>
+
 <!-- Bootstrap JS-->     
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>

@@ -1,0 +1,739 @@
+/* link fuentes google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Murecho:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo&family=Playfair+Display:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;1,900&family=Playfair+Display:ital@1&display=swap");
+.fondo-formulario-registrate {
+  background-color: #A7B09D;
+  border-radius: 1.8em;
+  padding-top: 8em;
+  text-align: center;
+  margin: 0.4em 0;
+  font-size: 1em;
+  font-family: "Chivo", sans-serif;
+  padding-bottom: 1em;
+}
+
+.crear-cuenta {
+  padding-bottom: 1.5em;
+}
+
+.fondo-contacto {
+  background-color: #A7B09D;
+  border-radius: 1.8em;
+  padding-top: 8em;
+  text-align: center;
+  margin: 0.4em 0;
+  font-size: 1em;
+  font-family: "Chivo", sans-serif;
+  padding-bottom: 2em;
+}
+
+.pie-de-pagina {
+  display: flex;
+  height: 5em;
+  background-color: #ffd9b9;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 0 0 2em;
+  width: 100%;
+}
+
+.pie-de-pagina .facebook {
+  display: flex;
+  margin: 0 2em;
+  width: 3em;
+  text-align: center;
+}
+
+.pie-de-pagina .facebook a {
+  display: flex;
+  padding: 0 1em;
+  background: #333;
+  color: #fff;
+  line-height: 2.5em;
+  font-size: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 2s;
+}
+
+.pie-de-pagina .facebook:hover a {
+  filter: blur(2px);
+}
+
+.pie-de-pagina .facebook a:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 0px 0 black;
+  filter: none;
+  background: blue;
+}
+
+.pie-de-pagina .instagram {
+  display: flex;
+  margin: 0 2em;
+  width: 3em;
+  text-align: center;
+}
+
+.pie-de-pagina .instagram a {
+  display: flex;
+  padding: 0 1em;
+  background: #333;
+  color: #fff;
+  line-height: 2.5em;
+  font-size: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 2s;
+}
+
+.pie-de-pagina .instagram:hover a {
+  filter: blur(2px);
+}
+
+.pie-de-pagina .instagram a:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 0px 0 black;
+  filter: none;
+  background: orangered;
+}
+
+.pie-de-pagina p {
+  color: black;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  padding-top: 1.5em;
+  font-size: 1em;
+}
+
+/*"reseteo"*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*encabezado header*/
+/*formato lista*/
+.header {
+  background-color: #ffd9b9;
+  padding: 0em 0 0 0;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-item .nav-link h3 {
+  margin-left: 3em;
+  text-shadow: 2px 2px 8px #8ff30c60;
+}
+
+/*fin header*/
+.fondo-iniciar-sesion {
+  background-color: #A7B09D;
+  border-radius: 1.8em;
+  padding-top: 8em;
+  text-align: center;
+  margin: 0.4em 0;
+  font-size: 1em;
+  font-family: "Chivo", sans-serif;
+  padding-bottom: 1em;
+}
+
+.body-productos {
+  background-color: #A7B09D;
+  padding: 1em 0 1em 0;
+  border-radius: 1.8em;
+}
+
+.calendario-productos {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+  font-family: "Chivo", sans-serif;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.stripts {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.calendario-productos button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.calendario-productos button:hover {
+  opacity: 0.7;
+}
+
+.calendario-productos .stripts {
+  display: flex;
+  display: block;
+  flex-direction: row;
+  background: #fff;
+  color: black;
+  text-align: center;
+  margin: 0.4em 0 0 0;
+  font-size: 2em;
+  font-family: "Chivo", sans-serif;
+}
+
+.fechas-especiales .stripts button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.fechas-especiales button:hover {
+  opacity: 0.7;
+}
+
+.tabla-productos {
+  color: black;
+  text-align: left;
+  margin: 0.4em 0;
+  font-size: 1em;
+  font-family: "Chivo", sans-serif;
+  padding-left: 10em;
+}
+
+.fechas-especiales-productos {
+  color: black;
+  text-align: center;
+  margin: 0.4em 0;
+  font-size: 1em;
+  font-family: "Chivo", sans-serif;
+  padding-left: 10em;
+}
+
+.imanes-productos {
+  color: black;
+  text-align: left;
+  margin: 0.4em 0;
+  font-size: 1em;
+  font-family: "Chivo", sans-serif;
+  padding-left: 10em;
+}
+
+.strips-productos {
+  color: black;
+  text-align: left;
+  margin: 0.4em 0;
+  font-size: 1em;
+  font-family: "Chivo", sans-serif;
+  padding-left: 10em;
+}
+
+.cuadros-productos {
+  color: black;
+  text-align: left;
+  margin: 0.4em 0;
+  font-size: 1em;
+  font-family: "Chivo", sans-serif;
+  padding-left: 10em;
+}
+
+.fotos-productos {
+  color: black;
+  text-align: left;
+  margin: 0.4em 0;
+  font-size: 1em;
+  font-family: "Chivo", sans-serif;
+  padding-left: 10em;
+}
+
+.cuerpo-index {
+  background-color: #A7B09D;
+  padding: 1em 0 1em 0;
+  border-radius: 1.8em;
+}
+
+/*section 1 */
+.prueba-uno {
+  background: url(../imagenes/foto-fondo-index.jpg), white;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: cover;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 1.8em;
+  margin-top: 6.3em;
+  padding-bottom: 8.9em;
+}
+
+.titulo-secundario-index {
+  font-family: "Playfair Display", serif;
+  font-size: 6em;
+  text-align: center;
+  padding-top: 0.8em;
+  color: #DCB239;
+  margin-left: 6.3em;
+  padding-top: 0.5em;
+}
+
+.titulo-secundario-index b {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.titulo-principal-index {
+  margin-top: 1em;
+  font-size: 3em;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 2em;
+  color: #DCB239;
+  text-align: center;
+  margin-left: 15em;
+}
+
+/*section 2 */
+/*section calendario*/
+.calendario {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 25px 0px 0px 166px;
+  padding: 30px 8px;
+  width: 50%;
+}
+
+.galeria-uno .calendario .imagen-calendario-index img {
+  transition: all 3.5s;
+}
+
+.galeria-uno .calendario .imagen-calendario-index img:hover {
+  transform: scale(1.3);
+}
+
+/*section fechas especiales*/
+.fechas-especiales {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 25px 0px 0px 166px;
+  padding: 30px 8px;
+  width: 50%;
+}
+
+.galeria-uno .fechas-especiales .imagen-fechas-especiales-index img {
+  transition: all 1.5s;
+}
+
+.galeria-uno .fechas-especiales .imagen-fechas-especiales-index img:hover {
+  transform: scale(1.3);
+}
+
+/*section imanes*/
+.imanes {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 25px 0px 0px 166px;
+  padding: 30px 8px;
+  width: 50%;
+}
+
+.galeria-uno .imanes .imagen-imanes-index img {
+  transition: all 1.5s;
+}
+
+.galeria-uno .imanes .imagen-imanes-index img:hover {
+  transform: scale(1.3);
+}
+
+/*section 3*/
+/*section stripts*/
+.stripts {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 25px 0px 0px 166px;
+  padding: 30px 8px;
+  width: 50%;
+}
+
+.galeria-dos .stripts .imagen-strips-index img {
+  transition: all 1.5s;
+}
+
+.galeria-dos .stripts .imagen-strips-index img:hover {
+  transform: scale(1.3);
+}
+
+/*section cuadros*/
+.cuadros {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 25px 0px 0px 166px;
+  padding: 30px 8px;
+  width: 50%;
+}
+
+.galeria-dos .cuadros .imagen-cuadro-index img {
+  transition: all 1.5s;
+}
+
+.galeria-dos .cuadros .imagen-cuadro-index img:hover {
+  transform: scale(1.3);
+}
+
+/*section fotos*/
+.fotos {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 25px 0px 0px 166px;
+  padding: 30px 8px;
+  width: 50%;
+}
+
+.galeria-dos .fotos .imagen-fotos-index img {
+  transition: all 1.5s;
+}
+
+.galeria-dos .fotos .imagen-fotos-index img:hover {
+  transform: scale(1.3);
+}
+
+/* Uso de grid */
+.galeria-uno {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.3fr 0.3fr;
+  grid-template-areas: "calendario-index fechas-especiales-index imanes-index" "imagen-calendario-index imagen-fechas-especiales-index imagen-imanes-index";
+}
+
+/*section 2 */
+.calendario-index {
+  grid-area: calendario-index;
+  color: black;
+  text-align: center;
+  margin: 0.4em 0;
+  font-size: 2em;
+  font-family: "Chivo", sans-serif;
+}
+
+.fechas-especiales-index {
+  grid-area: fechas-especiales-index;
+  color: black;
+  text-align: center;
+  margin: 0.4em 0;
+  font-size: 2em;
+  font-family: "Chivo", sans-serif;
+}
+
+.imanes-index {
+  grid-area: imanes-index;
+  color: black;
+  text-align: center;
+  margin: 0.4em 0;
+  font-size: 2em;
+  font-family: "Chivo", sans-serif;
+}
+
+.imagen-calendario-index {
+  grid-area: imagen-calendario-index;
+}
+
+.imagen-calendario-index img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
+.imagen-fechas-especiales-index {
+  grid-area: imagen-fechas-especiales-index;
+}
+
+.imagen-fechas-especiales-index img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
+.imagen-imanes-index {
+  grid-area: imagen-imanes-index;
+}
+
+.imagen-imanes-index img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
+/*section 3*/
+.galeria-dos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.3fr 0.3fr;
+  grid-template-areas: "strips-index cuadros-index fotos-index" "imagen-strips-index imagen-cuadro-index imagen-fotos-index";
+}
+
+.strips-index {
+  grid-area: strips-index;
+  justify-self: center;
+  color: black;
+  text-align: center;
+  margin: 0.4em 0;
+  font-size: 2em;
+  font-family: "Chivo", sans-serif;
+}
+
+.cuadros-index {
+  grid-area: cuadros-index;
+  color: black;
+  text-align: center;
+  margin: 0.4em 0;
+  font-size: 2em;
+  font-family: "Chivo", sans-serif;
+}
+
+.fotos-index {
+  grid-area: fotos-index;
+  color: black;
+  text-align: center;
+  margin: 0.4em 0;
+  font-size: 2em;
+  font-family: "Chivo", sans-serif;
+}
+
+.imagen-strips-index {
+  grid-area: imagen-strips-index;
+}
+
+.imagen-strips-index img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1em;
+  padding-top: 3em;
+}
+
+.imagen-cuadro-index {
+  grid-area: imagen-cuadro-index;
+}
+
+.imagen-cuadro-index img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
+.imagen-fotos-index {
+  grid-area: imagen-fotos-index;
+}
+
+.imagen-fotos-index img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
+/*fin body */
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+  .nav-item .nav-link h3 {
+    margin-left: 1em;
+    text-shadow: 2px 2px 8px black;
+  }
+
+  /*section 1 */
+  .prueba-uno {
+    border-radius: 1.8em;
+    margin-top: 3.3em;
+  }
+
+  .titulo-secundario-index {
+    font-family: "Playfair Display", serif;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 0.8em;
+    color: #DCB239;
+    margin-left: 6.3em;
+    padding-top: 0.5em;
+  }
+
+  .titulo-secundario-index b {
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .titulo-principal-index {
+    display: none;
+  }
+
+  /*section 2 */
+  .galeria-uno {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .galeria-dos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .nav-item .nav-link h3 {
+    margin-left: 1em;
+    text-shadow: 2px 2px 8px black;
+  }
+
+  /*section 1 */
+  .prueba-uno {
+    border-radius: 1.8em;
+    margin-top: 3.3em;
+  }
+
+  .titulo-secundario-index {
+    font-family: "Playfair Display", serif;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 0.8em;
+    color: #DCB239;
+    margin-left: 6.3em;
+    padding-top: 0.5em;
+  }
+
+  .titulo-secundario-index b {
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .titulo-principal-index {
+    display: none;
+  }
+
+  /*section 2 */
+  .galeria-uno {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .galeria-dos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .nav-item .nav-link h3 {
+    margin-left: 1em;
+    text-shadow: 2px 2px 8px black;
+  }
+
+  /*section 1 */
+  .prueba-uno {
+    border-radius: 1.8em;
+    margin-top: 3.3em;
+  }
+
+  .titulo-secundario-index {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 0.8em;
+    color: #DCB239;
+    margin-left: 3.3em;
+    padding-top: 0.5em;
+  }
+
+  .titulo-secundario-index b {
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .titulo-principal-index {
+    display: none;
+  }
+
+  /*section 2 */
+  .galeria-uno {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .galeria-dos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /*section calendario*/
+  .calendario {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 25px 0px 0px 100px;
+    padding: 30px 8px;
+    width: 50%;
+  }
+
+  /*section fechas especiales*/
+  .fechas-especiales {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 25px 0px 0px 100px;
+    padding: 30px 8px;
+    width: 50%;
+  }
+
+  /*section imanes*/
+  .imanes {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 25px 0px 0px 100px;
+    padding: 30px 8px;
+    width: 50%;
+  }
+
+  /*section 3*/
+  /*section stripts*/
+  .stripts {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 25px 0px 0px 100px;
+    padding: 30px 8px;
+    width: 50%;
+  }
+
+  /*section cuadros*/
+  .cuadros {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 25px 0px 0px 100px;
+    padding: 30px 8px;
+    width: 50%;
+  }
+
+  /*section fotos*/
+  .fotos {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 25px 0px 0px 100px;
+    padding: 30px 8px;
+    width: 50%;
+  }
+
+  .pie-de-pagina p {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,79 @@
+.pie-de-pagina{
+    display: flex;
+    height: 5em;
+    background-color:#ffd9b9;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0 0 2em;
+    width: 100%;
+}
+
+.pie-de-pagina .facebook {
+    display: flex;
+    margin: 0 2em ;
+    width: 3em;
+    text-align: center;
+}
+.pie-de-pagina .facebook a{
+    display:flex;
+    padding: 0 1em;
+    background: #333;
+    color: #fff;
+    line-height: 2.5em;
+    font-size: 1em;
+    box-shadow:  0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    transition: 2s;
+}
+.pie-de-pagina .facebook:hover a{
+    filter:blur(2px)
+} 
+.pie-de-pagina .facebook a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow:  0 5px 0px 0 rgb(0 0 0 / 4);
+    filter: none;
+    background: blue;
+}
+
+
+
+
+
+
+
+
+.pie-de-pagina .instagram {
+    display: flex;
+    margin: 0 2em ;
+    width: 3em;
+    text-align: center;
+}
+.pie-de-pagina .instagram a{
+    display: flex;
+    padding: 0 1em;
+    background: #333;
+    color: #fff;
+    line-height: 2.5em;
+    font-size: 1em;
+    box-shadow:  0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    transition: 2s;
+}
+.pie-de-pagina .instagram:hover a{
+    filter:blur(2px)
+} 
+.pie-de-pagina .instagram a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow:  0 5px 0px 0 rgb(0 0 0 / 4);
+    filter: none;
+    background: orangered;
+}
+
+
+
+
+.pie-de-pagina p{
+    color: black;
+    text-align: center;
+    font-family: 'Playfair Display', serif;;
+    padding-top: 1.5em;  
+    font-size: 1em    
+}

@@ -1,0 +1,223 @@
+@media only screen and (max-width:1440px) and (min-width:1024px) {
+  
+    .nav-item .nav-link h3{
+        margin-left: 1em; 
+        text-shadow: 2px 2px 8px black;
+     }
+     
+/*section 1 */
+
+
+
+.prueba-uno{          
+    border-radius: 1.8em; 
+    margin-top: 3.3em;         
+}
+
+.titulo-secundario-index{        
+        font-family: 'Playfair Display', serif;
+        font-size: 5em;
+        text-align: center;
+        padding-top: 0.8em;
+        color:#DCB239;
+        margin-left: 6.3em;
+        padding-top: 0.5em;    
+        
+}
+
+.titulo-secundario-index b{
+  text-shadow: 2px 2px 4px #000000
+}
+
+.titulo-principal-index{
+    display: none;
+}
+
+/*section 2 */
+
+
+.galeria-uno{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria-dos{
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+}
+
+
+
+@media only screen and (max-width:1023px) and (min-width:768px) { 
+    .nav-item .nav-link h3{
+        margin-left: 1em; 
+        text-shadow: 2px 2px 8px black;
+     }
+     
+/*section 1 */
+
+
+
+.prueba-uno{          
+    border-radius: 1.8em; 
+    margin-top: 3.3em;         
+}
+
+.titulo-secundario-index{        
+        font-family: 'Playfair Display', serif;
+        font-size: 3em;
+        text-align: center;
+        padding-top: 0.8em;
+        color:#DCB239;
+        margin-left: 6.3em;
+        padding-top: 0.5em;    
+        
+}
+
+.titulo-secundario-index b{
+  text-shadow: 2px 2px 4px #000000
+}
+
+.titulo-principal-index{
+    display: none;
+}
+
+/*section 2 */
+
+
+.galeria-uno{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria-dos{
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+}
+
+@media only screen and (max-width:767px) and (min-width:320px) { 
+    .nav-item .nav-link h3{
+        margin-left: 1em; 
+        text-shadow: 2px 2px 8px black;
+     }
+     
+/*section 1 */
+
+
+
+.prueba-uno{          
+    border-radius: 1.8em; 
+    margin-top: 3.3em;         
+}
+
+.titulo-secundario-index{        
+        font-family: 'Playfair Display', serif;
+        font-size: 1.5em;
+        text-align: center;
+        padding-top: 0.8em;
+        color:#DCB239;
+        margin-left: 3.3em;
+        padding-top: 0.5em;    
+        
+}
+
+.titulo-secundario-index b{
+  text-shadow: 2px 2px 4px #000000
+}
+
+.titulo-principal-index{
+    display: none;
+}
+
+/*section 2 */
+
+
+.galeria-uno{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria-dos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+ 
+
+/*section calendario*/
+
+.calendario{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: 25px 0px 0px 100px;
+    padding: 30px 8px;
+    width: 50%
+}
+
+
+
+/*section fechas especiales*/
+
+
+.fechas-especiales{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: 25px 0px 0px 100px;
+    padding: 30px 8px;
+    width: 50%   
+}
+
+/*section imanes*/
+
+.imanes{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: 25px 0px 0px 100px;
+    padding: 30px 8px;
+    width: 50%
+}
+
+/*section 3*/
+
+/*section stripts*/
+
+.stripts{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: 25px 0px 0px 100px;
+    padding: 30px 8px;
+    width: 50%
+}
+
+
+/*section cuadros*/
+
+
+.cuadros{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: 25px 0px 0px 100px;
+    padding: 30px 8px;
+    width: 50%
+    
+}
+
+
+/*section fotos*/
+.fotos{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: 25px 0px 0px 100px;
+    padding: 30px 8px;
+    width: 50%
+}
+
+.pie-de-pagina p{
+    display: none;  
+}
+}
