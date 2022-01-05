@@ -5,49 +5,34 @@
         text-shadow: 2px 2px 8px black;
      }
      
-/*section 1 */
-
-
-
-.prueba-uno{          
+ /*section 1 */
+ .prueba-uno{          
     border-radius: 1.8em; 
-    margin-top: 3.3em;         
-}
-
-.titulo-secundario-index{        
+    margin-top: 3.3em;  
+    .contenedor-titulo-secundario-index{        
         font-family: 'Playfair Display', serif;
         font-size: 5em;
         text-align: center;
         padding-top: 0.8em;
         color:#DCB239;
         margin-left: 6.3em;
-        padding-top: 0.5em;    
-        
-}
-
-.titulo-secundario-index b{
-  text-shadow: 2px 2px 4px #000000
-}
-
-.titulo-principal-index{
+        padding-top: 0.5em; 
+        b{text-shadow: 2px 2px 4px #000000 
+        }  
+    } 
+    .titulo-principal-index{
     display: none;
+    }    
 }
-
 /*section 2 */
 
-
-.galeria-uno{
+.galeria-uno,.galeria-dos{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 5em;
 }
 
-.galeria-dos{
-    display: flex;
-    flex-wrap: wrap;
 }
-    
-}
-
 
 
 @media only screen and (max-width:1023px) and (min-width:768px) { 
@@ -63,44 +48,49 @@
 .prueba-uno{          
     border-radius: 1.8em; 
     margin-top: 3.3em;         
-}
-
-.titulo-secundario-index{        
+    .contenedor-titulo-secundario{
+        margin-left: 30em;
+      .titulo-secundario-index{        
         font-family: 'Playfair Display', serif;
-        font-size: 3em;
-        text-align: center;
+        
+        
         padding-top: 0.8em;
         color:#DCB239;
-        margin-left: 6.3em;
-        padding-top: 0.5em;    
-        
+        margin-left: 0em;
+        padding-top: 0em;    
+        b{
+            font-size: 0.5em;
+        text-shadow: 2px 2px 4px #000000
+        }
+     }
+    }
+
+    .titulo-principal-index{
+     display: none;
+    }
 }
 
-.titulo-secundario-index b{
-  text-shadow: 2px 2px 4px #000000
-}
-
-.titulo-principal-index{
-    display: none;
-}
-
-/*section 2 */
 
 
-.galeria-uno{
+.galeria-uno,.galeria-dos{
     display: flex;
     flex-wrap: wrap;
+    .calendario, .fechas-especiales,.imanes,.stripts,.cuadros,.fotos{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin: 0.3em 0em 0px  1em;
+    padding: 0.3em 1em;
+    width: 80%
+    }
 }
 
-.galeria-dos{
-    display: flex;
-    flex-wrap: wrap;
-}
-    
-}
 
-@media only screen and (max-width:767px) and (min-width:320px) { 
-    .nav-item .nav-link h3{
+.pie-de-pagina p{
+    display: none;  
+}
+}
+@media only screen and (max-width:767px) and (min-width:320px){
+   .nav-item .nav-link h3{
         margin-left: 1em; 
         text-shadow: 2px 2px 8px black;
      }
@@ -111,113 +101,193 @@
 
 .prueba-uno{          
     border-radius: 1.8em; 
-    margin-top: 3.3em;         
-}
-
-.titulo-secundario-index{        
+    margin-top: 3.3em; 
+    padding-bottom: 0em;        
+    .contenedor-titulo-secundario{
+        margin-left: 0em;
+      .titulo-secundario-index{        
         font-family: 'Playfair Display', serif;
-        font-size: 1.5em;
-        text-align: center;
+        
+        
         padding-top: 0.8em;
         color:#DCB239;
-        margin-left: 3.3em;
-        padding-top: 0.5em;    
-        
+        margin-left: 0em;
+        padding-top: 0em;    
+        b{
+            font-size: 0.5em;
+        text-shadow: 2px 2px 4px #000000
+        }
+     }
+    }
+
+    .titulo-principal-index{
+     display: none;
+    }
 }
 
-.titulo-secundario-index b{
-  text-shadow: 2px 2px 4px #000000
-}
-
-.titulo-principal-index{
-    display: none;
-}
-
-/*section 2 */
 
 
-.galeria-uno{
+.galeria-uno,.galeria-dos{
     display: flex;
     flex-wrap: wrap;
-}
-
-.galeria-dos{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
- 
-
-/*section calendario*/
-
-.calendario{
+    margin: 0em 0em 0em -7em;
+    .calendario, .fechas-especiales,.imanes,.stripts,.cuadros,.fotos{
     background-color: white;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    margin: 25px 0px 0px 100px;
-    padding: 30px 8px;
-    width: 50%
+    margin: 0.3em 0em 0em  0.3em;
+    padding: 0.3em 0.3em;
+    width: 80%
+    }
 }
 
-
-
-/*section fechas especiales*/
-
-
-.fechas-especiales{
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    margin: 25px 0px 0px 100px;
-    padding: 30px 8px;
-    width: 50%   
-}
-
-/*section imanes*/
-
-.imanes{
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    margin: 25px 0px 0px 100px;
-    padding: 30px 8px;
-    width: 50%
-}
-
-/*section 3*/
-
-/*section stripts*/
-
-.stripts{
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    margin: 25px 0px 0px 100px;
-    padding: 30px 8px;
-    width: 50%
-}
-
-
-/*section cuadros*/
-
-
-.cuadros{
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    margin: 25px 0px 0px 100px;
-    padding: 30px 8px;
-    width: 50%
-    
-}
-
-
-/*section fotos*/
-.fotos{
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    margin: 25px 0px 0px 100px;
-    padding: 30px 8px;
-    width: 50%
-}
 
 .pie-de-pagina p{
     display: none;  
 }
+} 
+
+
+
+/*media query productos*/
+
+@media only screen and (max-width:767px) and (min-width:425px){
+    main{
+        background-color: #A7B09D;
+    
+        
+    
+        .body-productos{   
+           padding: 1.2em 0 1em 0 ;
+    
+           .calendario-productos,.fechas-especiales-productos,.imanes-productos,.cuadros-productos,.fotos-productos{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 90%;
+            margin: 1em auto;
+            text-align: center;
+            font-family: 'Chivo', sans-serif ;
+            background: white;
+                        
+            }
+        
+       }    
+    }
+   
 }
+
+@media only screen and (max-width:424px) and (min-width:319px){
+    main{
+        background-color: #A7B09D;
+    
+        .titulo-principal-productos {
+            padding-top: 1.5em;
+            h1{
+             font-family: 'Source Sans Pro', sans-serif;
+             font-size: 2em;
+             text-align: center;        
+             color:#DCB239;        
+             padding-top: 2em; 
+             b{text-shadow: 2px 2px 4px #000000
+              }
+            }
+        }
+    
+        .body-productos{   
+           padding: 1.2em 0 1em 0 ;
+    
+           .calendario-productos,.fechas-especiales-productos,.imanes-productos,.cuadros-productos,.fotos-productos{
+             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+             max-width: 100%;
+             margin-top: 1em;
+             font-size: 0.7em;             
+             text-align: center;
+             font-family: 'Chivo', sans-serif ;
+             background: white;
+             
+                .precio{
+                 color: grey;
+                 font-size: 1.5em;
+                 }
+    
+                button{
+                    border: none;
+                    outline: 0;
+                    padding: 0.2em;
+                    color: white;
+                    background-color: #000;
+                    text-align: center;
+                    cursor: pointer;
+                    width: 100%;
+                    font-size: 1.5em;
+                    &:hover {opacity: 0.7;}
+                }
+    
+            }
+    
+    
+        }
+    
+    }
+          
+.pie-de-pagina p{
+    display: none;  
+}
+}
+
+/*media query contacto*/
+
+@media only screen and (max-width:1024px) and (min-width:319px){
+    .fondo-contacto{        
+        max-width: 100%;        
+          }
+    .comentarios-formulario{
+        padding-left: 1em;
+        max-width: 75%;
+    }
+}
+
+/*media query quienes somos*/
+
+@media only screen and (max-width:1420px) and (min-width:1024px){
+    .titulo-principal-quienes-somos{        
+        padding-top: 6.5em;
+         }
+         .fuentes-productos-quienes-somos{padding: 9em 0em 0em 0em;
+                
+         }
+             
+
+}
+@media only screen and (max-width:1023px) and (min-width:320px){
+    .fondo-quienes-somos .fuentes-productos-quienes-somos{
+        max-width: 100%;
+        text-align: justify;
+    }
+     
+    }
+
+/*media query iniciar sesion*/
+
+    @media only screen and (max-width:1023px) and (min-width:320px){
+        .fondo-iniciar-sesion{
+              
+           max-width: 100%;
+            
+         }
+    }
+    /*media query registrate*/
+    @media only screen and (max-width:1024px) and (min-width:319px){
+        .fondo-formulario-registrate{
+             
+           max-width: 100%;
+            
+         }
+    }
+    @media only screen and (max-width:1732px) and (min-width:1025px){
+       
+          .fondo-formulario-registrate{
+           
+            
+            padding-top: 6em;
+           
+         }
+    }

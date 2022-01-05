@@ -1,31 +1,80 @@
+@charset "UTF-8";
 /* link fuentes google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Murecho:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chivo&family=Playfair+Display:ital,wght@1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;1,900&family=Playfair+Display:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 .fondo-formulario-registrate {
-  background-color: #A7B09D;
-  border-radius: 1.8em;
-  padding-top: 8em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 42%;
+  margin: auto;
   text-align: center;
-  margin: 0.4em 0;
-  font-size: 1em;
   font-family: "Chivo", sans-serif;
-  padding-bottom: 1em;
+  background: url(../../imagenes/Plantilla-20.png);
+  background-repeat: no-repeat;
+  border-radius: 1.8em;
+  padding-top: 10em;
+  font-size: 1em;
+  /*datos  personales*/
+  /*fin datos personales */
+  /*cuadro de acceso */
 }
-
-.crear-cuenta {
-  padding-bottom: 1.5em;
+.fondo-formulario-registrate .crear-cuenta {
+  padding-bottom: 1em 0em 0em 0em;
+}
+.fondo-formulario-registrate .datos-personales {
+  background: #eedeb0;
+  border-radius: 25em;
+}
+.fondo-formulario-registrate .datos-personales .nombre-formulario-registrate,
+.fondo-formulario-registrate .datos-personales .datos-nombre-formulario-registrate,
+.fondo-formulario-registrate .datos-personales .apellido-formulario-registrate,
+.fondo-formulario-registrate .datos-personales .datos-apellido-formulario-registrate,
+.fondo-formulario-registrate .datos-personales .fecha-nacimiento-formulario-registrate,
+.fondo-formulario-registrate .datos-personales .datos-fecha-nacimiento-formulario-registrate,
+.fondo-formulario-registrate .datos-personales .genero-formulario-registrate {
+  padding: 1em 0em 0em 0em;
+}
+.fondo-formulario-registrate .datos-de-acceso .titulo-acceso,
+.fondo-formulario-registrate .datos-de-acceso .correo-electronico-registrate,
+.fondo-formulario-registrate .datos-de-acceso .datos-correo-electronico-registrate,
+.fondo-formulario-registrate .datos-de-acceso .confirmacion-correo-electronico-registrate,
+.fondo-formulario-registrate .datos-de-acceso .datos-confirmacion-correo-electronico-registrate .clave-registrate,
+.fondo-formulario-registrate .datos-de-acceso .datos-clave-registrate,
+.fondo-formulario-registrate .datos-de-acceso .confirmacion-clave-registrate,
+.fondo-formulario-registrate .datos-de-acceso .datos-confirma-clave-registrate {
+  padding: 1em 0em 0em 0em;
+}
+.fondo-formulario-registrate .politicas-1,
+.fondo-formulario-registrate .politicas-2,
+.fondo-formulario-registrate .botones-registrate {
+  padding: 1em 0em 0em 0em;
 }
 
 .fondo-contacto {
-  background-color: #A7B09D;
-  border-radius: 1.8em;
-  padding-top: 8em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 42%;
+  margin: auto;
   text-align: center;
-  margin: 0.4em 0;
-  font-size: 1em;
   font-family: "Chivo", sans-serif;
-  padding-bottom: 2em;
+  background: url(../../imagenes/Plantilla-20.png);
+  background-repeat: no-repeat;
+  border-radius: 1.8em;
+  padding-top: 1em;
+  font-size: 1em;
+}
+.fondo-contacto .fuentes-productos {
+  padding: 8.9em 0em 0em 0em;
+}
+.fondo-contacto .fuentes-productos .nombre-formulario,
+.fondo-contacto .fuentes-productos .apellido-formulario,
+.fondo-contacto .fuentes-productos .mail-formulario,
+.fondo-contacto .fuentes-productos .number-formulario,
+.fondo-contacto .fuentes-productos .comentarios-formulario {
+  padding: 2em 0em 0em 0em;
+}
+.fondo-contacto .fuentes-productos .enviar {
+  padding: 4.9em 0em 4em 0em;
 }
 
 .pie-de-pagina {
@@ -126,36 +175,54 @@
 
 /*fin header*/
 .fondo-iniciar-sesion {
-  background-color: #A7B09D;
-  border-radius: 1.8em;
-  padding-top: 8em;
-  text-align: center;
-  margin: 0.4em 0;
-  font-size: 1em;
-  font-family: "Chivo", sans-serif;
-  padding-bottom: 1em;
-}
-
-.body-productos {
-  background-color: #A7B09D;
-  padding: 1em 0 1em 0;
-  border-radius: 1.8em;
-}
-
-.calendario-productos {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 50%;
+  max-width: 42%;
   margin: auto;
   text-align: center;
   font-family: "Chivo", sans-serif;
+  background: url(../../imagenes/Plantilla-20.png);
+  background-repeat: no-repeat;
+  border-radius: 1.8em;
+  padding-top: 15em;
+  font-size: 1em;
+}
+.fondo-iniciar-sesion .correo-electronico-sesion,
+.fondo-iniciar-sesion .contraseña {
+  padding: 4.9em 0em 1em 0em;
+}
+.fondo-iniciar-sesion .iniciar-sesion {
+  padding: 2em 0em 9em 0em;
 }
 
-.price {
+main {
+  background-color: #A7B09D;
+}
+main .titulo-principal-productos h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 4em;
+  text-align: center;
+  color: #DCB239;
+  padding-top: 2em;
+}
+main .titulo-principal-productos h1 b {
+  text-shadow: 2px 2px 4px #000000;
+}
+main .body-productos {
+  padding: 1.2em 0 1em 0;
+}
+main .body-productos .calendario-productos, main .body-productos .fechas-especiales-productos, main .body-productos .imanes-productos, main .body-productos .cuadros-productos, main .body-productos .fotos-productos {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 50%;
+  margin: 5em auto;
+  text-align: center;
+  font-family: "Chivo", sans-serif;
+  background: white;
+}
+main .body-productos .calendario-productos .precio, main .body-productos .fechas-especiales-productos .precio, main .body-productos .imanes-productos .precio, main .body-productos .cuadros-productos .precio, main .body-productos .fotos-productos .precio {
   color: grey;
   font-size: 22px;
 }
-
-.stripts {
+main .body-productos .calendario-productos button, main .body-productos .fechas-especiales-productos button, main .body-productos .imanes-productos button, main .body-productos .cuadros-productos button, main .body-productos .fotos-productos button {
   border: none;
   outline: 0;
   padding: 12px;
@@ -166,114 +233,42 @@
   width: 100%;
   font-size: 18px;
 }
-
-.calendario-productos button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-.calendario-productos button:hover {
+main .body-productos .calendario-productos button:hover, main .body-productos .fechas-especiales-productos button:hover, main .body-productos .imanes-productos button:hover, main .body-productos .cuadros-productos button:hover, main .body-productos .fotos-productos button:hover {
   opacity: 0.7;
 }
 
-.calendario-productos .stripts {
-  display: flex;
-  display: block;
-  flex-direction: row;
-  background: #fff;
-  color: black;
+.fondo-quienes-somos .titulo-principal-quienes-somos {
+  margin: auto;
   text-align: center;
-  margin: 0.4em 0 0 0;
-  font-size: 2em;
   font-family: "Chivo", sans-serif;
+  border-radius: 1.8em;
+  padding-top: 6em;
 }
-
-.fechas-especiales .stripts button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
+.fondo-quienes-somos .fuentes-productos-quienes-somos {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 42%;
+  margin: auto;
   text-align: center;
-  cursor: pointer;
+  font-family: "Chivo", sans-serif;
+  background: url(../../imagenes/Plantilla-20.png);
+  background-repeat: no-repeat;
+  border-radius: 1.8em;
+  padding: 11em 0em 0em 0em;
+  font-size: 1em;
+}
+.fondo-quienes-somos .fuentes-productos-quienes-somos .foto-quienes-somos img {
   width: 100%;
-  font-size: 18px;
-}
-
-.fechas-especiales button:hover {
-  opacity: 0.7;
-}
-
-.tabla-productos {
-  color: black;
-  text-align: left;
-  margin: 0.4em 0;
-  font-size: 1em;
-  font-family: "Chivo", sans-serif;
-  padding-left: 10em;
-}
-
-.fechas-especiales-productos {
-  color: black;
-  text-align: center;
-  margin: 0.4em 0;
-  font-size: 1em;
-  font-family: "Chivo", sans-serif;
-  padding-left: 10em;
-}
-
-.imanes-productos {
-  color: black;
-  text-align: left;
-  margin: 0.4em 0;
-  font-size: 1em;
-  font-family: "Chivo", sans-serif;
-  padding-left: 10em;
-}
-
-.strips-productos {
-  color: black;
-  text-align: left;
-  margin: 0.4em 0;
-  font-size: 1em;
-  font-family: "Chivo", sans-serif;
-  padding-left: 10em;
-}
-
-.cuadros-productos {
-  color: black;
-  text-align: left;
-  margin: 0.4em 0;
-  font-size: 1em;
-  font-family: "Chivo", sans-serif;
-  padding-left: 10em;
-}
-
-.fotos-productos {
-  color: black;
-  text-align: left;
-  margin: 0.4em 0;
-  font-size: 1em;
-  font-family: "Chivo", sans-serif;
-  padding-left: 10em;
 }
 
 .cuerpo-index {
   background-color: #A7B09D;
   padding: 1em 0 1em 0;
   border-radius: 1.8em;
+  /*section 1 */
+  /*section 2 */
 }
-
-/*section 1 */
-.prueba-uno {
-  background: url(../imagenes/foto-fondo-index.jpg), white;
+.cuerpo-index .prueba-uno {
+  background: url(../imagenes/foto-fondo-index.png), white;
   background-repeat: no-repeat;
   background-size: contain;
   display: cover;
@@ -283,9 +278,8 @@
   margin-top: 6.3em;
   padding-bottom: 8.9em;
 }
-
-.titulo-secundario-index {
-  font-family: "Playfair Display", serif;
+.cuerpo-index .prueba-uno .titulo-secundario-index {
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 6em;
   text-align: center;
   padding-top: 0.8em;
@@ -293,124 +287,26 @@
   margin-left: 6.3em;
   padding-top: 0.5em;
 }
-
-.titulo-secundario-index b {
+.cuerpo-index .prueba-uno .titulo-secundario-index b {
   text-shadow: 2px 2px 4px #000000;
 }
-
-.titulo-principal-index {
+.cuerpo-index .prueba-uno .titulo-principal-index {
   margin-top: 1em;
   font-size: 3em;
   text-align: center;
-  font-family: "Playfair Display", serif;
+  font-family: "Source Sans Pro", sans-serif;
   padding-bottom: 2em;
   color: #DCB239;
   text-align: center;
   margin-left: 15em;
+  text-shadow: 2px 2px 4px #000000;
 }
-
-/*section 2 */
-/*section calendario*/
-.calendario {
+.cuerpo-index .galeria-uno .calendario, .cuerpo-index .galeria-uno .fechas-especiales, .cuerpo-index .galeria-uno .imanes, .cuerpo-index .galeria-uno .stripts, .cuerpo-index .galeria-uno .cuadros, .cuerpo-index .galeria-uno .fotos, .cuerpo-index .galeria-dos .calendario, .cuerpo-index .galeria-dos .fechas-especiales, .cuerpo-index .galeria-dos .imanes, .cuerpo-index .galeria-dos .stripts, .cuerpo-index .galeria-dos .cuadros, .cuerpo-index .galeria-dos .fotos {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 25px 0px 0px 166px;
   padding: 30px 8px;
   width: 50%;
-}
-
-.galeria-uno .calendario .imagen-calendario-index img {
-  transition: all 3.5s;
-}
-
-.galeria-uno .calendario .imagen-calendario-index img:hover {
-  transform: scale(1.3);
-}
-
-/*section fechas especiales*/
-.fechas-especiales {
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 25px 0px 0px 166px;
-  padding: 30px 8px;
-  width: 50%;
-}
-
-.galeria-uno .fechas-especiales .imagen-fechas-especiales-index img {
-  transition: all 1.5s;
-}
-
-.galeria-uno .fechas-especiales .imagen-fechas-especiales-index img:hover {
-  transform: scale(1.3);
-}
-
-/*section imanes*/
-.imanes {
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 25px 0px 0px 166px;
-  padding: 30px 8px;
-  width: 50%;
-}
-
-.galeria-uno .imanes .imagen-imanes-index img {
-  transition: all 1.5s;
-}
-
-.galeria-uno .imanes .imagen-imanes-index img:hover {
-  transform: scale(1.3);
-}
-
-/*section 3*/
-/*section stripts*/
-.stripts {
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 25px 0px 0px 166px;
-  padding: 30px 8px;
-  width: 50%;
-}
-
-.galeria-dos .stripts .imagen-strips-index img {
-  transition: all 1.5s;
-}
-
-.galeria-dos .stripts .imagen-strips-index img:hover {
-  transform: scale(1.3);
-}
-
-/*section cuadros*/
-.cuadros {
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 25px 0px 0px 166px;
-  padding: 30px 8px;
-  width: 50%;
-}
-
-.galeria-dos .cuadros .imagen-cuadro-index img {
-  transition: all 1.5s;
-}
-
-.galeria-dos .cuadros .imagen-cuadro-index img:hover {
-  transform: scale(1.3);
-}
-
-/*section fotos*/
-.fotos {
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 25px 0px 0px 166px;
-  padding: 30px 8px;
-  width: 50%;
-}
-
-.galeria-dos .fotos .imagen-fotos-index img {
-  transition: all 1.5s;
-}
-
-.galeria-dos .fotos .imagen-fotos-index img:hover {
-  transform: scale(1.3);
 }
 
 /* Uso de grid */
@@ -422,8 +318,7 @@
 }
 
 /*section 2 */
-.calendario-index {
-  grid-area: calendario-index;
+.calendario-index, .fechas-especiales-index, .imanes-index {
   color: black;
   text-align: center;
   margin: 0.4em 0;
@@ -431,51 +326,7 @@
   font-family: "Chivo", sans-serif;
 }
 
-.fechas-especiales-index {
-  grid-area: fechas-especiales-index;
-  color: black;
-  text-align: center;
-  margin: 0.4em 0;
-  font-size: 2em;
-  font-family: "Chivo", sans-serif;
-}
-
-.imanes-index {
-  grid-area: imanes-index;
-  color: black;
-  text-align: center;
-  margin: 0.4em 0;
-  font-size: 2em;
-  font-family: "Chivo", sans-serif;
-}
-
-.imagen-calendario-index {
-  grid-area: imagen-calendario-index;
-}
-
-.imagen-calendario-index img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 1em;
-}
-
-.imagen-fechas-especiales-index {
-  grid-area: imagen-fechas-especiales-index;
-}
-
-.imagen-fechas-especiales-index img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 1em;
-}
-
-.imagen-imanes-index {
-  grid-area: imagen-imanes-index;
-}
-
-.imagen-imanes-index img {
+.imagen-calendario-index img, .imagen-fechas-especiales-index img, .imagen-imanes-index img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -490,8 +341,7 @@
   grid-template-areas: "strips-index cuadros-index fotos-index" "imagen-strips-index imagen-cuadro-index imagen-fotos-index";
 }
 
-.strips-index {
-  grid-area: strips-index;
+.strips-index, .cuadros-index, .fotos-index {
   justify-self: center;
   color: black;
   text-align: center;
@@ -500,56 +350,12 @@
   font-family: "Chivo", sans-serif;
 }
 
-.cuadros-index {
-  grid-area: cuadros-index;
-  color: black;
-  text-align: center;
-  margin: 0.4em 0;
-  font-size: 2em;
-  font-family: "Chivo", sans-serif;
-}
-
-.fotos-index {
-  grid-area: fotos-index;
-  color: black;
-  text-align: center;
-  margin: 0.4em 0;
-  font-size: 2em;
-  font-family: "Chivo", sans-serif;
-}
-
-.imagen-strips-index {
-  grid-area: imagen-strips-index;
-}
-
-.imagen-strips-index img {
+.imagen-strips-index img, .imagen-cuadro-index img, .imagen-fotos-index img {
   width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 1em;
   padding-top: 3em;
-}
-
-.imagen-cuadro-index {
-  grid-area: imagen-cuadro-index;
-}
-
-.imagen-cuadro-index img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 1em;
-}
-
-.imagen-fotos-index {
-  grid-area: imagen-fotos-index;
-}
-
-.imagen-fotos-index img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 1em;
 }
 
 /*fin body */
@@ -564,8 +370,7 @@
     border-radius: 1.8em;
     margin-top: 3.3em;
   }
-
-  .titulo-secundario-index {
+  .prueba-uno .contenedor-titulo-secundario-index {
     font-family: "Playfair Display", serif;
     font-size: 5em;
     text-align: center;
@@ -574,24 +379,18 @@
     margin-left: 6.3em;
     padding-top: 0.5em;
   }
-
-  .titulo-secundario-index b {
+  .prueba-uno .contenedor-titulo-secundario-index b {
     text-shadow: 2px 2px 4px #000000;
   }
-
-  .titulo-principal-index {
+  .prueba-uno .titulo-principal-index {
     display: none;
   }
 
   /*section 2 */
-  .galeria-uno {
+  .galeria-uno, .galeria-dos {
     display: flex;
     flex-wrap: wrap;
-  }
-
-  .galeria-dos {
-    display: flex;
-    flex-wrap: wrap;
+    margin-left: 5em;
   }
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
@@ -605,34 +404,38 @@
     border-radius: 1.8em;
     margin-top: 3.3em;
   }
-
-  .titulo-secundario-index {
+  .prueba-uno .contenedor-titulo-secundario {
+    margin-left: 30em;
+  }
+  .prueba-uno .contenedor-titulo-secundario .titulo-secundario-index {
     font-family: "Playfair Display", serif;
-    font-size: 3em;
-    text-align: center;
     padding-top: 0.8em;
     color: #DCB239;
-    margin-left: 6.3em;
-    padding-top: 0.5em;
+    margin-left: 0em;
+    padding-top: 0em;
   }
-
-  .titulo-secundario-index b {
+  .prueba-uno .contenedor-titulo-secundario .titulo-secundario-index b {
+    font-size: 0.5em;
     text-shadow: 2px 2px 4px #000000;
   }
-
-  .titulo-principal-index {
+  .prueba-uno .titulo-principal-index {
     display: none;
   }
 
-  /*section 2 */
-  .galeria-uno {
+  .galeria-uno, .galeria-dos {
     display: flex;
     flex-wrap: wrap;
   }
+  .galeria-uno .calendario, .galeria-uno .fechas-especiales, .galeria-uno .imanes, .galeria-uno .stripts, .galeria-uno .cuadros, .galeria-uno .fotos, .galeria-dos .calendario, .galeria-dos .fechas-especiales, .galeria-dos .imanes, .galeria-dos .stripts, .galeria-dos .cuadros, .galeria-dos .fotos {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0.3em 0em 0px 1em;
+    padding: 0.3em 1em;
+    width: 80%;
+  }
 
-  .galeria-dos {
-    display: flex;
-    flex-wrap: wrap;
+  .pie-de-pagina p {
+    display: none;
   }
 }
 @media only screen and (max-width: 767px) and (min-width: 320px) {
@@ -645,94 +448,154 @@
   .prueba-uno {
     border-radius: 1.8em;
     margin-top: 3.3em;
+    padding-bottom: 0em;
   }
-
-  .titulo-secundario-index {
+  .prueba-uno .contenedor-titulo-secundario {
+    margin-left: 0em;
+  }
+  .prueba-uno .contenedor-titulo-secundario .titulo-secundario-index {
     font-family: "Playfair Display", serif;
-    font-size: 1.5em;
-    text-align: center;
     padding-top: 0.8em;
     color: #DCB239;
-    margin-left: 3.3em;
-    padding-top: 0.5em;
+    margin-left: 0em;
+    padding-top: 0em;
   }
-
-  .titulo-secundario-index b {
+  .prueba-uno .contenedor-titulo-secundario .titulo-secundario-index b {
+    font-size: 0.5em;
     text-shadow: 2px 2px 4px #000000;
   }
-
-  .titulo-principal-index {
+  .prueba-uno .titulo-principal-index {
     display: none;
   }
 
-  /*section 2 */
-  .galeria-uno {
+  .galeria-uno, .galeria-dos {
     display: flex;
     flex-wrap: wrap;
+    margin: 0em 0em 0em -7em;
   }
-
-  .galeria-dos {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  /*section calendario*/
-  .calendario {
+  .galeria-uno .calendario, .galeria-uno .fechas-especiales, .galeria-uno .imanes, .galeria-uno .stripts, .galeria-uno .cuadros, .galeria-uno .fotos, .galeria-dos .calendario, .galeria-dos .fechas-especiales, .galeria-dos .imanes, .galeria-dos .stripts, .galeria-dos .cuadros, .galeria-dos .fotos {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 0px 100px;
-    padding: 30px 8px;
-    width: 50%;
-  }
-
-  /*section fechas especiales*/
-  .fechas-especiales {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 0px 100px;
-    padding: 30px 8px;
-    width: 50%;
-  }
-
-  /*section imanes*/
-  .imanes {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 0px 100px;
-    padding: 30px 8px;
-    width: 50%;
-  }
-
-  /*section 3*/
-  /*section stripts*/
-  .stripts {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 0px 100px;
-    padding: 30px 8px;
-    width: 50%;
-  }
-
-  /*section cuadros*/
-  .cuadros {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 0px 100px;
-    padding: 30px 8px;
-    width: 50%;
-  }
-
-  /*section fotos*/
-  .fotos {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 25px 0px 0px 100px;
-    padding: 30px 8px;
-    width: 50%;
+    margin: 0.3em 0em 0em 0.3em;
+    padding: 0.3em 0.3em;
+    width: 80%;
   }
 
   .pie-de-pagina p {
     display: none;
+  }
+}
+/*media query productos*/
+@media only screen and (max-width: 767px) and (min-width: 425px) {
+  main {
+    background-color: #A7B09D;
+  }
+  main .body-productos {
+    padding: 1.2em 0 1em 0;
+  }
+  main .body-productos .calendario-productos, main .body-productos .fechas-especiales-productos, main .body-productos .imanes-productos, main .body-productos .cuadros-productos, main .body-productos .fotos-productos {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    margin: 1em auto;
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+    background: white;
+  }
+}
+@media only screen and (max-width: 424px) and (min-width: 319px) {
+  main {
+    background-color: #A7B09D;
+  }
+  main .titulo-principal-productos {
+    padding-top: 1.5em;
+  }
+  main .titulo-principal-productos h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #DCB239;
+    padding-top: 2em;
+  }
+  main .titulo-principal-productos h1 b {
+    text-shadow: 2px 2px 4px #000000;
+  }
+  main .body-productos {
+    padding: 1.2em 0 1em 0;
+  }
+  main .body-productos .calendario-productos, main .body-productos .fechas-especiales-productos, main .body-productos .imanes-productos, main .body-productos .cuadros-productos, main .body-productos .fotos-productos {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    margin-top: 1em;
+    font-size: 0.7em;
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+    background: white;
+  }
+  main .body-productos .calendario-productos .precio, main .body-productos .fechas-especiales-productos .precio, main .body-productos .imanes-productos .precio, main .body-productos .cuadros-productos .precio, main .body-productos .fotos-productos .precio {
+    color: grey;
+    font-size: 1.5em;
+  }
+  main .body-productos .calendario-productos button, main .body-productos .fechas-especiales-productos button, main .body-productos .imanes-productos button, main .body-productos .cuadros-productos button, main .body-productos .fotos-productos button {
+    border: none;
+    outline: 0;
+    padding: 0.2em;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.5em;
+  }
+  main .body-productos .calendario-productos button:hover, main .body-productos .fechas-especiales-productos button:hover, main .body-productos .imanes-productos button:hover, main .body-productos .cuadros-productos button:hover, main .body-productos .fotos-productos button:hover {
+    opacity: 0.7;
+  }
+
+  .pie-de-pagina p {
+    display: none;
+  }
+}
+/*media query contacto*/
+@media only screen and (max-width: 1024px) and (min-width: 319px) {
+  .fondo-contacto {
+    max-width: 100%;
+  }
+
+  .comentarios-formulario {
+    padding-left: 1em;
+    max-width: 75%;
+  }
+}
+/*media query quienes somos*/
+@media only screen and (max-width: 1420px) and (min-width: 1024px) {
+  .titulo-principal-quienes-somos {
+    padding-top: 6.5em;
+  }
+
+  .fuentes-productos-quienes-somos {
+    padding: 9em 0em 0em 0em;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 320px) {
+  .fondo-quienes-somos .fuentes-productos-quienes-somos {
+    max-width: 100%;
+    text-align: justify;
+  }
+}
+/*media query iniciar sesion*/
+@media only screen and (max-width: 1023px) and (min-width: 320px) {
+  .fondo-iniciar-sesion {
+    max-width: 100%;
+  }
+}
+/*media query registrate*/
+@media only screen and (max-width: 1024px) and (min-width: 319px) {
+  .fondo-formulario-registrate {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 1732px) and (min-width: 1025px) {
+  .fondo-formulario-registrate {
+    padding-top: 6em;
   }
 }
 

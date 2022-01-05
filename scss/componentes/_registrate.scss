@@ -1,17 +1,51 @@
 .fondo-formulario-registrate{
-    background-color: #A7B09D;
-        
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);    
+    max-width: 42%;
+    margin:auto;
+    text-align: center;
+    font-family: 'Chivo', sans-serif ;
+    background: url(../../imagenes/Plantilla-20.png);
+    background-repeat: no-repeat;
     border-radius: 1.8em;
-    padding-top: 8em;
-    text-align:  center;
-    margin: 0.4em 0;
+    padding-top: 10em;
     font-size:1em;
-    font-family: 'Chivo', sans-serif;
-    padding-bottom: 1em; 
 
- }
+    .crear-cuenta{
+    padding-bottom:1em  0em 0em 0em;
+    }
+    /*datos  personales*/
 
- .crear-cuenta{
-     padding-bottom:1.5em ;
- }
- 
+    .datos-personales{
+     background: #eedeb0 ;
+     border-radius: 25em;
+        .nombre-formulario-registrate,
+        .datos-nombre-formulario-registrate, 
+        .apellido-formulario-registrate, 
+        .datos-apellido-formulario-registrate,
+        .fecha-nacimiento-formulario-registrate,
+        .datos-fecha-nacimiento-formulario-registrate, 
+        .genero-formulario-registrate{padding: 1em 0em 0em 0em
+        }                     
+    }
+
+    /*fin datos personales */
+
+    /*cuadro de acceso */
+
+    .datos-de-acceso{
+        .titulo-acceso,
+        .correo-electronico-registrate,
+        .datos-correo-electronico-registrate,
+        .confirmacion-correo-electronico-registrate, 
+        .datos-confirmacion-correo-electronico-registrate
+        .clave-registrate,
+        .datos-clave-registrate,
+        .confirmacion-clave-registrate,
+        .datos-confirma-clave-registrate{padding: 1em 0em 0em 0em
+        } 
+    }
+    .politicas-1,
+    .politicas-2,
+    .botones-registrate {padding: 1em 0em 0em 0em
+    }    
+}

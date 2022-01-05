@@ -1,12 +1,17 @@
 .fondo-iniciar-sesion{
-    background-color: #A7B09D;
-        
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);    
+   max-width: 42%;
+    margin:auto;
+    text-align: center;
+    font-family: 'Chivo', sans-serif ;
+    background: url(../../imagenes/Plantilla-20.png);
+    background-repeat: no-repeat;
     border-radius: 1.8em;
-    padding-top: 8em;
-    text-align:  center;
-    margin: 0.4em 0;
+    padding-top: 15em;
     font-size:1em;
-    font-family: 'Chivo', sans-serif;
-    padding-bottom: 1em; 
-
- }
+    .correo-electronico-sesion,
+    .contraseña{ padding: 4.9em 0em 1em 0em;
+    }
+    .iniciar-sesion{ padding: 2em 0em 9em 0em;
+    }
+}

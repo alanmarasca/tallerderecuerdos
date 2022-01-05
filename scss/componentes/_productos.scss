@@ -1,130 +1,48 @@
-.body-productos{
+main{
     background-color: #A7B09D;
-    padding: 1em 0 1em 0 ;
-    border-radius: 1.8em;
-}
 
-.calendario-productos {
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-max-width: 50%;
-margin: auto;
-text-align: center;
-font-family: 'Chivo', sans-serif ;
-}
+    .titulo-principal-productos h1{
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 4em;
+     text-align: center;        
+     color:#DCB239;        
+     padding-top: 2em; 
+        b{text-shadow: 2px 2px 4px #000000
+        }
+    }
 
+    .body-productos{   
+       padding: 1.2em 0 1em 0 ;
 
-.price {
-color: grey;
-font-size: 22px;
-}
-.stripts{border: none;
-outline: 0;
-padding: 12px;
-color: white;
-background-color: #000;
-text-align: center;
-cursor: pointer;
-width: 100%;
-font-size: 18px;
+       .calendario-productos,.fechas-especiales-productos,.imanes-productos,.cuadros-productos,.fotos-productos{
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+         max-width: 50%;
+         margin: 5em auto;
+         text-align: center;
+         font-family: 'Chivo', sans-serif ;
+         background: white;
+         
+            .precio{
+             color: grey;
+             font-size: 22px;
+             }
 
-}
+            button{
+                border: none;
+                outline: 0;
+                padding: 12px;
+                color: white;
+                background-color: #000;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+                font-size: 18px;
+                &:hover {opacity: 0.7;}
+            }
 
-.calendario-productos  button {
-border: none;
-outline: 0;
-padding: 12px;
-color: white;
-background-color: #000;
-text-align: center;
-cursor: pointer;
-width: 100%;
-font-size: 18px;
-}
-
-.calendario-productos button:hover {
-opacity: 0.7;}
+        }
 
 
+    }
 
-.calendario-productos .stripts {
-   display: flex;
-   display: block;
-  flex-direction: row;
-   
-   background: #fff;
-    color:  black;
-   text-align: center;
-    margin: 0.4em 0 0 0;
-   font-size:2em;
-   font-family: 'Chivo', sans-serif  ;          
-}
-
-.fechas-especiales .stripts button {
-border: none;
-outline: 0;
-padding: 12px;
-color: white;
-background-color: #000;
-text-align: center;
-cursor: pointer;
-width: 100%;
-font-size: 18px;
-}
-
-.fechas-especiales button:hover {
-opacity: 0.7;}
-
-.tabla-productos {
-color:  black;
-text-align: left;
- margin: 0.4em 0;
-font-size:1em;
-font-family: 'Chivo', sans-serif;
-padding-left: 10em;
-}
-
-.fechas-especiales-productos{
-color:  black;
-text-align: center;
- margin: 0.4em 0;
-font-size:1em;
-font-family: 'Chivo', sans-serif;
-padding-left: 10em;
-}
-
-.imanes-productos{
-color:  black;
-text-align: left;
- margin: 0.4em 0;
-font-size:1em;
-font-family: 'Chivo', sans-serif;
-padding-left: 10em;
-
-}
-
-.strips-productos{
-color:  black;
-text-align: left;
-margin: 0.4em 0;
-font-size:1em;
-font-family: 'Chivo', sans-serif;
-padding-left: 10em;
-}
-
-.cuadros-productos{
-color:  black;
-text-align: left;
-margin: 0.4em 0;
-font-size:1em;
-font-family: 'Chivo', sans-serif;
-padding-left: 10em;
-}
-
-.fotos-productos{
-color:  black;
-text-align: left;
-margin: 0.4em 0;
-font-size:1em;
-font-family: 'Chivo', sans-serif;
-padding-left: 10em;
 }
